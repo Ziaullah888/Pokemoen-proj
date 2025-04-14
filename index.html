@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Pokemon</h1>
+        <div class="input-cont">
+            <input type="text" id="input" placeholder="Enter Pokemon Name or ID" autofocus>
+            <button id="btn" onclick="fetchPokemon()">Search</button>
+            <button id="btnR" onclick="getRandom()">Random</button>
+        </div>
+        <div class="pokemon-data">
+        </div>
+    </div>
+
+   <script src="app.js"></script>
+</body>
+</html>
