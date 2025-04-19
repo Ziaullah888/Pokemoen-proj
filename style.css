@@ -5,13 +5,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
-    background-color: #3F4F44; 
+    background-color: #2c3930; 
 }
 .container {
     width: 40%;
     height: auto;
     text-align: center;
-    background-color: #2C3930;
+    background-color: #3F4F44;
     padding: 20px 10px;
     margin: 2px;
     border-radius: 18px;
@@ -40,9 +40,10 @@ button {
     border: none;
     outline: none;
 }
-button:hover {
-    background-color: #3F4F44;
+button:hover, button:active {
+    background-color: #41634c;
     transition: all 0.3s ease;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
 }
 .pokemon-data {
     color: black;
